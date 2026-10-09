@@ -1,0 +1,201 @@
+Transaction_ID,Date,Transaction_Type,Category,Description,Amount,Currency,Payment_Method,Needs_or_Wants,Recurring,Monthly_Budget,Notes
+EXP001,2026-10-01,Expense,Food,Groceries,250,INR,UPI,Need,No,6000,Sample transaction 1
+EXP002,2026-10-01,Expense,Transport,Auto fare,450,INR,Cash,Need,No,2000,Sample transaction 2
+EXP003,2026-10-01,Expense,Bills,Electricity bill,799,INR,Card,Need,Yes,2500,Sample transaction 3
+EXP004,2026-10-01,Expense,Shopping,Personal shopping,1200,INR,Bank Transfer,Want,No,3000,Sample transaction 4
+EXP005,2026-10-01,Expense,Entertainment,Movie tickets,1500,INR,UPI,Want,No,1500,Sample transaction 5
+EXP006,2026-10-01,Expense,Health,Pharmacy,600,INR,Cash,Need,No,1500,Sample transaction 6
+EXP007,2026-10-01,Expense,Education,Course materials,350,INR,Card,Need,No,2500,Sample transaction 7
+EXP008,2026-10-02,Expense,Food,Restaurant meal,900,INR,Bank Transfer,Need,No,3000,Sample transaction 8
+EXP009,2026-10-02,Expense,Savings,Monthly savings,5000,INR,UPI,Need,Yes,10000,Sample transaction 9
+EXP010,2026-10-02,Income,Salary,Monthly salary,40000,INR,Bank Transfer,Need,Yes,0,Sample transaction 10
+EXP011,2026-10-02,Expense,Food,Groceries,250,INR,Card,Need,No,6000,Sample transaction 11
+EXP012,2026-10-02,Expense,Transport,Auto fare,450,INR,Bank Transfer,Need,No,2000,Sample transaction 12
+EXP013,2026-10-02,Expense,Bills,Electricity bill,799,INR,UPI,Need,Yes,2500,Sample transaction 13
+EXP014,2026-10-02,Expense,Shopping,Personal shopping,1200,INR,Cash,Want,No,3000,Sample transaction 14
+EXP015,2026-10-03,Expense,Entertainment,Movie tickets,1500,INR,Card,Want,No,1500,Sample transaction 15
+EXP016,2026-10-03,Expense,Health,Pharmacy,600,INR,Bank Transfer,Need,No,1500,Sample transaction 16
+EXP017,2026-10-03,Expense,Education,Course materials,350,INR,UPI,Need,No,2500,Sample transaction 17
+EXP018,2026-10-03,Expense,Food,Restaurant meal,900,INR,Cash,Need,No,3000,Sample transaction 18
+EXP019,2026-10-03,Expense,Savings,Monthly savings,5000,INR,Card,Need,Yes,10000,Sample transaction 19
+EXP020,2026-10-03,Income,Freelance,Freelance payment,2500,INR,Bank Transfer,Need,Yes,0,Sample transaction 20
+EXP021,2026-10-03,Expense,Food,Groceries,250,INR,UPI,Need,No,6000,Sample transaction 21
+EXP022,2026-10-04,Expense,Transport,Auto fare,450,INR,Cash,Need,No,2000,Sample transaction 22
+EXP023,2026-10-04,Expense,Bills,Electricity bill,799,INR,Card,Need,Yes,2500,Sample transaction 23
+EXP024,2026-10-04,Expense,Shopping,Personal shopping,1200,INR,Bank Transfer,Want,No,3000,Sample transaction 24
+EXP025,2026-10-04,Expense,Entertainment,Movie tickets,1500,INR,UPI,Want,No,1500,Sample transaction 25
+EXP026,2026-10-04,Expense,Health,Pharmacy,600,INR,Cash,Need,No,1500,Sample transaction 26
+EXP027,2026-10-04,Expense,Education,Course materials,350,INR,Card,Need,No,2500,Sample transaction 27
+EXP028,2026-10-04,Expense,Food,Restaurant meal,900,INR,Bank Transfer,Need,No,3000,Sample transaction 28
+EXP029,2026-10-05,Expense,Savings,Monthly savings,5000,INR,UPI,Need,Yes,10000,Sample transaction 29
+EXP030,2026-10-05,Income,Salary,Monthly salary,40000,INR,Bank Transfer,Need,Yes,0,Sample transaction 30
+EXP031,2026-10-05,Expense,Food,Groceries,250,INR,Card,Need,No,6000,Sample transaction 31
+EXP032,2026-10-05,Expense,Transport,Auto fare,450,INR,Bank Transfer,Need,No,2000,Sample transaction 32
+EXP033,2026-10-05,Expense,Bills,Electricity bill,799,INR,UPI,Need,Yes,2500,Sample transaction 33
+EXP034,2026-10-05,Expense,Shopping,Personal shopping,1200,INR,Cash,Want,No,3000,Sample transaction 34
+EXP035,2026-10-05,Expense,Entertainment,Movie tickets,1500,INR,Card,Want,No,1500,Sample transaction 35
+EXP036,2026-10-06,Expense,Health,Pharmacy,600,INR,Bank Transfer,Need,No,1500,Sample transaction 36
+EXP037,2026-10-06,Expense,Education,Course materials,350,INR,UPI,Need,No,2500,Sample transaction 37
+EXP038,2026-10-06,Expense,Food,Restaurant meal,900,INR,Cash,Need,No,3000,Sample transaction 38
+EXP039,2026-10-06,Expense,Savings,Monthly savings,5000,INR,Card,Need,Yes,10000,Sample transaction 39
+EXP040,2026-10-06,Income,Freelance,Freelance payment,2500,INR,Bank Transfer,Need,Yes,0,Sample transaction 40
+EXP041,2026-10-06,Expense,Food,Groceries,250,INR,UPI,Need,No,6000,Sample transaction 41
+EXP042,2026-10-06,Expense,Transport,Auto fare,450,INR,Cash,Need,No,2000,Sample transaction 42
+EXP043,2026-10-07,Expense,Bills,Electricity bill,799,INR,Card,Need,Yes,2500,Sample transaction 43
+EXP044,2026-10-07,Expense,Shopping,Personal shopping,1200,INR,Bank Transfer,Want,No,3000,Sample transaction 44
+EXP045,2026-10-07,Expense,Entertainment,Movie tickets,1500,INR,UPI,Want,No,1500,Sample transaction 45
+EXP046,2026-10-07,Expense,Health,Pharmacy,600,INR,Cash,Need,No,1500,Sample transaction 46
+EXP047,2026-10-07,Expense,Education,Course materials,350,INR,Card,Need,No,2500,Sample transaction 47
+EXP048,2026-10-07,Expense,Food,Restaurant meal,900,INR,Bank Transfer,Need,No,3000,Sample transaction 48
+EXP049,2026-10-07,Expense,Savings,Monthly savings,5000,INR,UPI,Need,Yes,10000,Sample transaction 49
+EXP050,2026-10-08,Income,Salary,Monthly salary,40000,INR,Bank Transfer,Need,Yes,0,Sample transaction 50
+EXP051,2026-10-08,Expense,Food,Groceries,250,INR,Card,Need,No,6000,Sample transaction 51
+EXP052,2026-10-08,Expense,Transport,Auto fare,450,INR,Bank Transfer,Need,No,2000,Sample transaction 52
+EXP053,2026-10-08,Expense,Bills,Electricity bill,799,INR,UPI,Need,Yes,2500,Sample transaction 53
+EXP054,2026-10-08,Expense,Shopping,Personal shopping,1200,INR,Cash,Want,No,3000,Sample transaction 54
+EXP055,2026-10-08,Expense,Entertainment,Movie tickets,1500,INR,Card,Want,No,1500,Sample transaction 55
+EXP056,2026-10-08,Expense,Health,Pharmacy,600,INR,Bank Transfer,Need,No,1500,Sample transaction 56
+EXP057,2026-10-09,Expense,Education,Course materials,350,INR,UPI,Need,No,2500,Sample transaction 57
+EXP058,2026-10-09,Expense,Food,Restaurant meal,900,INR,Cash,Need,No,3000,Sample transaction 58
+EXP059,2026-10-09,Expense,Savings,Monthly savings,5000,INR,Card,Need,Yes,10000,Sample transaction 59
+EXP060,2026-10-09,Income,Freelance,Freelance payment,2500,INR,Bank Transfer,Need,Yes,0,Sample transaction 60
+EXP061,2026-10-09,Expense,Food,Groceries,250,INR,UPI,Need,No,6000,Sample transaction 61
+EXP062,2026-10-09,Expense,Transport,Auto fare,450,INR,Cash,Need,No,2000,Sample transaction 62
+EXP063,2026-10-09,Expense,Bills,Electricity bill,799,INR,Card,Need,Yes,2500,Sample transaction 63
+EXP064,2026-10-10,Expense,Shopping,Personal shopping,1200,INR,Bank Transfer,Want,No,3000,Sample transaction 64
+EXP065,2026-10-10,Expense,Entertainment,Movie tickets,1500,INR,UPI,Want,No,1500,Sample transaction 65
+EXP066,2026-10-10,Expense,Health,Pharmacy,600,INR,Cash,Need,No,1500,Sample transaction 66
+EXP067,2026-10-10,Expense,Education,Course materials,350,INR,Card,Need,No,2500,Sample transaction 67
+EXP068,2026-10-10,Expense,Food,Restaurant meal,900,INR,Bank Transfer,Need,No,3000,Sample transaction 68
+EXP069,2026-10-10,Expense,Savings,Monthly savings,5000,INR,UPI,Need,Yes,10000,Sample transaction 69
+EXP070,2026-10-10,Income,Salary,Monthly salary,40000,INR,Bank Transfer,Need,Yes,0,Sample transaction 70
+EXP071,2026-10-11,Expense,Food,Groceries,250,INR,Card,Need,No,6000,Sample transaction 71
+EXP072,2026-10-11,Expense,Transport,Auto fare,450,INR,Bank Transfer,Need,No,2000,Sample transaction 72
+EXP073,2026-10-11,Expense,Bills,Electricity bill,799,INR,UPI,Need,Yes,2500,Sample transaction 73
+EXP074,2026-10-11,Expense,Shopping,Personal shopping,1200,INR,Cash,Want,No,3000,Sample transaction 74
+EXP075,2026-10-11,Expense,Entertainment,Movie tickets,1500,INR,Card,Want,No,1500,Sample transaction 75
+EXP076,2026-10-11,Expense,Health,Pharmacy,600,INR,Bank Transfer,Need,No,1500,Sample transaction 76
+EXP077,2026-10-11,Expense,Education,Course materials,350,INR,UPI,Need,No,2500,Sample transaction 77
+EXP078,2026-10-12,Expense,Food,Restaurant meal,900,INR,Cash,Need,No,3000,Sample transaction 78
+EXP079,2026-10-12,Expense,Savings,Monthly savings,5000,INR,Card,Need,Yes,10000,Sample transaction 79
+EXP080,2026-10-12,Income,Freelance,Freelance payment,2500,INR,Bank Transfer,Need,Yes,0,Sample transaction 80
+EXP081,2026-10-12,Expense,Food,Groceries,250,INR,UPI,Need,No,6000,Sample transaction 81
+EXP082,2026-10-12,Expense,Transport,Auto fare,450,INR,Cash,Need,No,2000,Sample transaction 82
+EXP083,2026-10-12,Expense,Bills,Electricity bill,799,INR,Card,Need,Yes,2500,Sample transaction 83
+EXP084,2026-10-12,Expense,Shopping,Personal shopping,1200,INR,Bank Transfer,Want,No,3000,Sample transaction 84
+EXP085,2026-10-13,Expense,Entertainment,Movie tickets,1500,INR,UPI,Want,No,1500,Sample transaction 85
+EXP086,2026-10-13,Expense,Health,Pharmacy,600,INR,Cash,Need,No,1500,Sample transaction 86
+EXP087,2026-10-13,Expense,Education,Course materials,350,INR,Card,Need,No,2500,Sample transaction 87
+EXP088,2026-10-13,Expense,Food,Restaurant meal,900,INR,Bank Transfer,Need,No,3000,Sample transaction 88
+EXP089,2026-10-13,Expense,Savings,Monthly savings,5000,INR,UPI,Need,Yes,10000,Sample transaction 89
+EXP090,2026-10-13,Income,Salary,Monthly salary,40000,INR,Bank Transfer,Need,Yes,0,Sample transaction 90
+EXP091,2026-10-13,Expense,Food,Groceries,250,INR,Card,Need,No,6000,Sample transaction 91
+EXP092,2026-10-14,Expense,Transport,Auto fare,450,INR,Bank Transfer,Need,No,2000,Sample transaction 92
+EXP093,2026-10-14,Expense,Bills,Electricity bill,799,INR,UPI,Need,Yes,2500,Sample transaction 93
+EXP094,2026-10-14,Expense,Shopping,Personal shopping,1200,INR,Cash,Want,No,3000,Sample transaction 94
+EXP095,2026-10-14,Expense,Entertainment,Movie tickets,1500,INR,Card,Want,No,1500,Sample transaction 95
+EXP096,2026-10-14,Expense,Health,Pharmacy,600,INR,Bank Transfer,Need,No,1500,Sample transaction 96
+EXP097,2026-10-14,Expense,Education,Course materials,350,INR,UPI,Need,No,2500,Sample transaction 97
+EXP098,2026-10-14,Expense,Food,Restaurant meal,900,INR,Cash,Need,No,3000,Sample transaction 98
+EXP099,2026-10-15,Expense,Savings,Monthly savings,5000,INR,Card,Need,Yes,10000,Sample transaction 99
+EXP100,2026-10-15,Income,Freelance,Freelance payment,2500,INR,Bank Transfer,Need,Yes,0,Sample transaction 100
+EXP101,2026-10-15,Expense,Food,Groceries,250,INR,UPI,Need,No,6000,Sample transaction 101
+EXP102,2026-10-15,Expense,Transport,Auto fare,450,INR,Cash,Need,No,2000,Sample transaction 102
+EXP103,2026-10-15,Expense,Bills,Electricity bill,799,INR,Card,Need,Yes,2500,Sample transaction 103
+EXP104,2026-10-15,Expense,Shopping,Personal shopping,1200,INR,Bank Transfer,Want,No,3000,Sample transaction 104
+EXP105,2026-10-15,Expense,Entertainment,Movie tickets,1500,INR,UPI,Want,No,1500,Sample transaction 105
+EXP106,2026-10-16,Expense,Health,Pharmacy,600,INR,Cash,Need,No,1500,Sample transaction 106
+EXP107,2026-10-16,Expense,Education,Course materials,350,INR,Card,Need,No,2500,Sample transaction 107
+EXP108,2026-10-16,Expense,Food,Restaurant meal,900,INR,Bank Transfer,Need,No,3000,Sample transaction 108
+EXP109,2026-10-16,Expense,Savings,Monthly savings,5000,INR,UPI,Need,Yes,10000,Sample transaction 109
+EXP110,2026-10-16,Income,Salary,Monthly salary,40000,INR,Bank Transfer,Need,Yes,0,Sample transaction 110
+EXP111,2026-10-16,Expense,Food,Groceries,250,INR,Card,Need,No,6000,Sample transaction 111
+EXP112,2026-10-16,Expense,Transport,Auto fare,450,INR,Bank Transfer,Need,No,2000,Sample transaction 112
+EXP113,2026-10-17,Expense,Bills,Electricity bill,799,INR,UPI,Need,Yes,2500,Sample transaction 113
+EXP114,2026-10-17,Expense,Shopping,Personal shopping,1200,INR,Cash,Want,No,3000,Sample transaction 114
+EXP115,2026-10-17,Expense,Entertainment,Movie tickets,1500,INR,Card,Want,No,1500,Sample transaction 115
+EXP116,2026-10-17,Expense,Health,Pharmacy,600,INR,Bank Transfer,Need,No,1500,Sample transaction 116
+EXP117,2026-10-17,Expense,Education,Course materials,350,INR,UPI,Need,No,2500,Sample transaction 117
+EXP118,2026-10-17,Expense,Food,Restaurant meal,900,INR,Cash,Need,No,3000,Sample transaction 118
+EXP119,2026-10-17,Expense,Savings,Monthly savings,5000,INR,Card,Need,Yes,10000,Sample transaction 119
+EXP120,2026-10-18,Income,Freelance,Freelance payment,2500,INR,Bank Transfer,Need,Yes,0,Sample transaction 120
+EXP121,2026-10-18,Expense,Food,Groceries,250,INR,UPI,Need,No,6000,Sample transaction 121
+EXP122,2026-10-18,Expense,Transport,Auto fare,450,INR,Cash,Need,No,2000,Sample transaction 122
+EXP123,2026-10-18,Expense,Bills,Electricity bill,799,INR,Card,Need,Yes,2500,Sample transaction 123
+EXP124,2026-10-18,Expense,Shopping,Personal shopping,1200,INR,Bank Transfer,Want,No,3000,Sample transaction 124
+EXP125,2026-10-18,Expense,Entertainment,Movie tickets,1500,INR,UPI,Want,No,1500,Sample transaction 125
+EXP126,2026-10-18,Expense,Health,Pharmacy,600,INR,Cash,Need,No,1500,Sample transaction 126
+EXP127,2026-10-19,Expense,Education,Course materials,350,INR,Card,Need,No,2500,Sample transaction 127
+EXP128,2026-10-19,Expense,Food,Restaurant meal,900,INR,Bank Transfer,Need,No,3000,Sample transaction 128
+EXP129,2026-10-19,Expense,Savings,Monthly savings,5000,INR,UPI,Need,Yes,10000,Sample transaction 129
+EXP130,2026-10-19,Income,Salary,Monthly salary,40000,INR,Bank Transfer,Need,Yes,0,Sample transaction 130
+EXP131,2026-10-19,Expense,Food,Groceries,250,INR,Card,Need,No,6000,Sample transaction 131
+EXP132,2026-10-19,Expense,Transport,Auto fare,450,INR,Bank Transfer,Need,No,2000,Sample transaction 132
+EXP133,2026-10-19,Expense,Bills,Electricity bill,799,INR,UPI,Need,Yes,2500,Sample transaction 133
+EXP134,2026-10-20,Expense,Shopping,Personal shopping,1200,INR,Cash,Want,No,3000,Sample transaction 134
+EXP135,2026-10-20,Expense,Entertainment,Movie tickets,1500,INR,Card,Want,No,1500,Sample transaction 135
+EXP136,2026-10-20,Expense,Health,Pharmacy,600,INR,Bank Transfer,Need,No,1500,Sample transaction 136
+EXP137,2026-10-20,Expense,Education,Course materials,350,INR,UPI,Need,No,2500,Sample transaction 137
+EXP138,2026-10-20,Expense,Food,Restaurant meal,900,INR,Cash,Need,No,3000,Sample transaction 138
+EXP139,2026-10-20,Expense,Savings,Monthly savings,5000,INR,Card,Need,Yes,10000,Sample transaction 139
+EXP140,2026-10-20,Income,Freelance,Freelance payment,2500,INR,Bank Transfer,Need,Yes,0,Sample transaction 140
+EXP141,2026-10-21,Expense,Food,Groceries,250,INR,UPI,Need,No,6000,Sample transaction 141
+EXP142,2026-10-21,Expense,Transport,Auto fare,450,INR,Cash,Need,No,2000,Sample transaction 142
+EXP143,2026-10-21,Expense,Bills,Electricity bill,799,INR,Card,Need,Yes,2500,Sample transaction 143
+EXP144,2026-10-21,Expense,Shopping,Personal shopping,1200,INR,Bank Transfer,Want,No,3000,Sample transaction 144
+EXP145,2026-10-21,Expense,Entertainment,Movie tickets,1500,INR,UPI,Want,No,1500,Sample transaction 145
+EXP146,2026-10-21,Expense,Health,Pharmacy,600,INR,Cash,Need,No,1500,Sample transaction 146
+EXP147,2026-10-21,Expense,Education,Course materials,350,INR,Card,Need,No,2500,Sample transaction 147
+EXP148,2026-10-22,Expense,Food,Restaurant meal,900,INR,Bank Transfer,Need,No,3000,Sample transaction 148
+EXP149,2026-10-22,Expense,Savings,Monthly savings,5000,INR,UPI,Need,Yes,10000,Sample transaction 149
+EXP150,2026-10-22,Income,Salary,Monthly salary,40000,INR,Bank Transfer,Need,Yes,0,Sample transaction 150
+EXP151,2026-10-22,Expense,Food,Groceries,250,INR,Card,Need,No,6000,Sample transaction 151
+EXP152,2026-10-22,Expense,Transport,Auto fare,450,INR,Bank Transfer,Need,No,2000,Sample transaction 152
+EXP153,2026-10-22,Expense,Bills,Electricity bill,799,INR,UPI,Need,Yes,2500,Sample transaction 153
+EXP154,2026-10-22,Expense,Shopping,Personal shopping,1200,INR,Cash,Want,No,3000,Sample transaction 154
+EXP155,2026-10-23,Expense,Entertainment,Movie tickets,1500,INR,Card,Want,No,1500,Sample transaction 155
+EXP156,2026-10-23,Expense,Health,Pharmacy,600,INR,Bank Transfer,Need,No,1500,Sample transaction 156
+EXP157,2026-10-23,Expense,Education,Course materials,350,INR,UPI,Need,No,2500,Sample transaction 157
+EXP158,2026-10-23,Expense,Food,Restaurant meal,900,INR,Cash,Need,No,3000,Sample transaction 158
+EXP159,2026-10-23,Expense,Savings,Monthly savings,5000,INR,Card,Need,Yes,10000,Sample transaction 159
+EXP160,2026-10-23,Income,Freelance,Freelance payment,2500,INR,Bank Transfer,Need,Yes,0,Sample transaction 160
+EXP161,2026-10-23,Expense,Food,Groceries,250,INR,UPI,Need,No,6000,Sample transaction 161
+EXP162,2026-10-24,Expense,Transport,Auto fare,450,INR,Cash,Need,No,2000,Sample transaction 162
+EXP163,2026-10-24,Expense,Bills,Electricity bill,799,INR,Card,Need,Yes,2500,Sample transaction 163
+EXP164,2026-10-24,Expense,Shopping,Personal shopping,1200,INR,Bank Transfer,Want,No,3000,Sample transaction 164
+EXP165,2026-10-24,Expense,Entertainment,Movie tickets,1500,INR,UPI,Want,No,1500,Sample transaction 165
+EXP166,2026-10-24,Expense,Health,Pharmacy,600,INR,Cash,Need,No,1500,Sample transaction 166
+EXP167,2026-10-24,Expense,Education,Course materials,350,INR,Card,Need,No,2500,Sample transaction 167
+EXP168,2026-10-24,Expense,Food,Restaurant meal,900,INR,Bank Transfer,Need,No,3000,Sample transaction 168
+EXP169,2026-10-25,Expense,Savings,Monthly savings,5000,INR,UPI,Need,Yes,10000,Sample transaction 169
+EXP170,2026-10-25,Income,Salary,Monthly salary,40000,INR,Bank Transfer,Need,Yes,0,Sample transaction 170
+EXP171,2026-10-25,Expense,Food,Groceries,250,INR,Card,Need,No,6000,Sample transaction 171
+EXP172,2026-10-25,Expense,Transport,Auto fare,450,INR,Bank Transfer,Need,No,2000,Sample transaction 172
+EXP173,2026-10-25,Expense,Bills,Electricity bill,799,INR,UPI,Need,Yes,2500,Sample transaction 173
+EXP174,2026-10-25,Expense,Shopping,Personal shopping,1200,INR,Cash,Want,No,3000,Sample transaction 174
+EXP175,2026-10-25,Expense,Entertainment,Movie tickets,1500,INR,Card,Want,No,1500,Sample transaction 175
+EXP176,2026-10-26,Expense,Health,Pharmacy,600,INR,Bank Transfer,Need,No,1500,Sample transaction 176
+EXP177,2026-10-26,Expense,Education,Course materials,350,INR,UPI,Need,No,2500,Sample transaction 177
+EXP178,2026-10-26,Expense,Food,Restaurant meal,900,INR,Cash,Need,No,3000,Sample transaction 178
+EXP179,2026-10-26,Expense,Savings,Monthly savings,5000,INR,Card,Need,Yes,10000,Sample transaction 179
+EXP180,2026-10-26,Income,Freelance,Freelance payment,2500,INR,Bank Transfer,Need,Yes,0,Sample transaction 180
+EXP181,2026-10-26,Expense,Food,Groceries,250,INR,UPI,Need,No,6000,Sample transaction 181
+EXP182,2026-10-26,Expense,Transport,Auto fare,450,INR,Cash,Need,No,2000,Sample transaction 182
+EXP183,2026-10-27,Expense,Bills,Electricity bill,799,INR,Card,Need,Yes,2500,Sample transaction 183
+EXP184,2026-10-27,Expense,Shopping,Personal shopping,1200,INR,Bank Transfer,Want,No,3000,Sample transaction 184
+EXP185,2026-10-27,Expense,Entertainment,Movie tickets,1500,INR,UPI,Want,No,1500,Sample transaction 185
+EXP186,2026-10-27,Expense,Health,Pharmacy,600,INR,Cash,Need,No,1500,Sample transaction 186
+EXP187,2026-10-27,Expense,Education,Course materials,350,INR,Card,Need,No,2500,Sample transaction 187
+EXP188,2026-10-27,Expense,Food,Restaurant meal,900,INR,Bank Transfer,Need,No,3000,Sample transaction 188
+EXP189,2026-10-27,Expense,Savings,Monthly savings,5000,INR,UPI,Need,Yes,10000,Sample transaction 189
+EXP190,2026-10-28,Income,Salary,Monthly salary,40000,INR,Bank Transfer,Need,Yes,0,Sample transaction 190
+EXP191,2026-10-28,Expense,Food,Groceries,250,INR,Card,Need,No,6000,Sample transaction 191
+EXP192,2026-10-28,Expense,Transport,Auto fare,450,INR,Bank Transfer,Need,No,2000,Sample transaction 192
+EXP193,2026-10-28,Expense,Bills,Electricity bill,799,INR,UPI,Need,Yes,2500,Sample transaction 193
+EXP194,2026-10-28,Expense,Shopping,Personal shopping,1200,INR,Cash,Want,No,3000,Sample transaction 194
+EXP195,2026-10-28,Expense,Entertainment,Movie tickets,1500,INR,Card,Want,No,1500,Sample transaction 195
+EXP196,2026-10-28,Expense,Health,Pharmacy,600,INR,Bank Transfer,Need,No,1500,Sample transaction 196
+EXP197,2026-10-29,Expense,Education,Course materials,350,INR,UPI,Need,No,2500,Sample transaction 197
+EXP198,2026-10-29,Expense,Food,Restaurant meal,900,INR,Cash,Need,No,3000,Sample transaction 198
+EXP199,2026-10-29,Expense,Savings,Monthly savings,5000,INR,Card,Need,Yes,10000,Sample transaction 199
+EXP200,2026-10-29,Income,Freelance,Freelance payment,2500,INR,Bank Transfer,Need,Yes,0,Sample transaction 200
