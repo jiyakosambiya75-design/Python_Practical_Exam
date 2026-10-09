@@ -258,48 +258,6 @@ The "datetime" and "os" modules are included with Python and do not need separat
 
 ---
 
-📥 Installation Guide
-
-Step 1: Install Python
-
-Download Python from the official website:
-
-https://www.python.org/downloads/
-
-During installation on Windows, enable the option to add Python to PATH if available.
-
-Step 2: Open the Project Folder
-
-Open the Smart Expense Tracker project folder in Visual Studio Code or another Python editor.
-
-Step 3: Open the Terminal
-
-In Visual Studio Code, select:
-
-Terminal → New Terminal
-
-Step 4: Install Required Libraries
-
-Run the following command:
-
-python -m pip install pandas numpy matplotlib seaborn
-
-If your system uses the "python3" command, you can use:
-
-python3 -m pip install pandas numpy matplotlib seaborn
-
-Step 5: Run the Application
-
-If the Python file is named "main.py", execute:
-
-python main.py
-
-If the filename is different, replace "main.py" with your actual filename.
-
-The main menu should appear in the terminal when the application starts successfully.
-
----
-
 ▶️ How to Run the Application
 
 Follow these steps to use the application:
