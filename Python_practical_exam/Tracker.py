@@ -124,6 +124,7 @@ class smart_expense_tracker:
         monthly_totals=data.groupby("Month")["Amount"].sum()
         
         sns.set_theme(style="whitegrid")
+        
         #bar
         plt.figure(figsize=(8,5))
         sns.barplot(
@@ -134,16 +135,7 @@ class smart_expense_tracker:
         plt.xlabel=("Category")
         plt.ylabel=("Expense")
         plt.show()
-        #line
-        plt.figure(figsize=(8,5))
-        plt.plot(
-            x=category_totals.index,
-            y=category_totals.value
-        )
-        plt.title("Monthly Spending  Trends")
-        plt.xlabel=("month")
-        plt.ylabel=("Expense")
-        plt.show()
+        
         # 2. Line Graph
         plt.figure(figsize=(8, 5))
         plt.plot(
