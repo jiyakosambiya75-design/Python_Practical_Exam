@@ -9,7 +9,7 @@ FILE= "expense.csv"
 
 class smart_expense_tracker:
     def __init__(self):
-        if os.path exist(FILE):
+        if os.path.exists(FILE):
             self.df = pd.read_csv(FILE)
         else:
             self.df=pd.DataFrame(columns=["Date", "Amount","Category","Description"])
@@ -48,12 +48,12 @@ class smart_expense_tracker:
         except(ValueError,TypeError):
             print("Enter a valid date and amount")
             
-    def get_summury(self):
+    def get_summary(self):
         if self.df.empty:
             print("No expense data available.")
             return
         amount=self.df["Amount"].to_numpy()
-        print("\n--- Expense Summury ---")
+        print("\n--- Expense Summary ---")
         print("Total Expense:",round(np.sum(amount),2))
         print("Average Expense:",round(np.mean(amount),2))
         print("Maximun Expense:",round(np.max(amount),2))
@@ -79,15 +79,16 @@ class smart_expense_tracker:
                 filtered = filtered[filtered["Category"].str.lower() == category.lower()]
                 
             elif choice == 2:
-                start=d.to_datetime(input("Start date (YYYY-MM-DD):"))
-                end=d.to_datetime(input("End date (YYYY-MM-DD):"))
+                start = pd.to_datetime(input("Start date (YYYY-MM-DD):"))
+                end = pd.to_datetime(input("End date (YYYY-MM-DD):"))
                 filtered=filtered[
                    (filtered["Date"]>=start) &
                    (filtered["Date"]<=end)
+                ]
                 
             elif choice == 3:
                 minimum=float(input("Enter minimum amount:"))
-                filtered=filtered[filtered["amount"] >= minimum]
+                filtered=filtered[filtered["Amount"] >= minimum]
                 
             else:
                 print("Invalid Filter choice:")
@@ -125,7 +126,7 @@ class smart_expense_tracker:
             print("Add expenses before generating charts")
             return
         data=self.df.copy()
-        data["Month"]=data["Data"].dt.to_period("M").astype(str)
+        data["Month"]=data["Date"].dt.to_period("M").astype(str)
         category_totals=data.groupby("category")["Amount"].sum()
         monthly_totals=data.groupby("Month")["Amount"].sum()
         
@@ -138,8 +139,8 @@ class smart_expense_tracker:
             y=category_totals.values
         )
         plt.title("Total expense by category")
-        plt.xlabel=("Category")
-        plt.ylabel=("Expense")
+        plt.xlabel("Category")
+        plt.ylabel("Expense")
         plt.show()
         
         # 2. Line Graph
@@ -179,7 +180,7 @@ class smart_expense_tracker:
 
 
 def main():
-    tracker = ExpenseTracker()
+    tracker = smart_expense_tracker()
 
     while True:
         print("\n===== SMART EXPENSE TRACKER =====")
