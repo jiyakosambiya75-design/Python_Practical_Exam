@@ -127,7 +127,7 @@ class smart_expense_tracker:
             return
         data=self.df.copy()
         data["Month"]=data["Date"].dt.to_period("M").astype(str)
-        category_totals=data.groupby("category")["Amount"].sum()
+        category_totals=data.groupby("Category")["Amount"].sum()
         monthly_totals=data.groupby("Month")["Amount"].sum()
         
         sns.set_theme(style="whitegrid")
