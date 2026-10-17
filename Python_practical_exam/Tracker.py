@@ -23,7 +23,7 @@ class smart_expense_tracker:
             self.df["Category"]=self.df["Category"].astype(str)
     
     def save_data(self):
-        self.df.to_csv(FILE , index=False , date_format=%Y-%m-%d)
+        self.df.to_csv(FILE , index=False , date_format="%Y-%m-%d")
             
     def add_expense(self , date , amount , category , description ):
         try:
