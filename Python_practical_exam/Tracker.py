@@ -12,7 +12,7 @@ class smart_expense_tracker:
         if os.path exist(FILE):
             self.df = pd.read_csv(FILE)
         else:
-            self.df=pd.DataFrame(columns["Date", "Amount","Category","Description"])
+            self.df=pd.DataFrame(columns=["Date", "Amount","Category","Description"])
         self.clean_data()
         
     def clean_data(self):
@@ -58,14 +58,14 @@ class smart_expense_tracker:
         print("Average Expense:",round(np.mean(amount),2))
         print("Maximun Expense:",round(np.max(amount),2))
         print("Minimum Expense:",round(np.min(amount),2))
-        print("Numbers of Transection:",round(np.track(amount),2))
+        print("Numbers of Transection:",len(amount))
         
     def filter_expense(self , condition=True ):
         if self.df.empty:
             print("No Filter expense found.")
             return
         
-        filter=self.df.copy(),
+        filtered = self.df.copy()
         print("\nFilrter by category")
         print("1. Filter by category")
         print("2. Filter by date range")
@@ -81,7 +81,9 @@ class smart_expense_tracker:
             elif choice == 2:
                 start=d.to_datetime(input("Start date (YYYY-MM-DD):"))
                 end=d.to_datetime(input("End date (YYYY-MM-DD):"))
-                filtered=filtered(filtered["Date"]>=start)&(filtered["Date"]<=end)
+                filtered=filtered[
+                   (filtered["Date"]>=start) &
+                   (filtered["Date"]<=end)
                 
             elif choice == 3:
                 minimum=float(input("Enter minimum amount:"))
@@ -98,7 +100,11 @@ class smart_expense_tracker:
         if self.df.empty:
             print("No data available for expance")
             return
-        report=self.df.groupby("Category").agg(Total_Expense=("Amount","sum"),Average_Expense=("Amount","mean"),Transactions=("Amount","count")).sot_values("Total_Expenses",ascending=True)
+        report=self.df.groupby("Category").agg(
+            Total_Expense=("Amount","sum"),
+            Average_Expense=("Amount","mean"),
+            Transactions=("Amount","count")
+        ).sot_values("Total_Expenses",ascending=False)
         print("\n--- expense Report ---")
         print(report.round(2))
         
@@ -118,7 +124,7 @@ class smart_expense_tracker:
         if self.df.empty:
             print("Add expenses before generating charts")
             return
-        data=self.df.copy
+        data=self.df.copy()
         data["Month"]=data["Data"].dt.to_period("M").astype(str)
         category_totals=data.groupby("category")["Amount"].sum()
         monthly_totals=data.groupby("Month")["Amount"].sum()
@@ -129,7 +135,7 @@ class smart_expense_tracker:
         plt.figure(figsize=(8,5))
         sns.barplot(
             x=category_totals.index,
-            y=category_totals.value
+            y=category_totals.values
         )
         plt.title("Total expense by category")
         plt.xlabel=("Category")
@@ -210,7 +216,7 @@ def main():
             tracker.get_summary()
 
         elif choice == "3":
-            tracker.filter_expenses()
+            tracker.filter_expense()
 
         elif choice == "4":
             tracker.generate_report()
@@ -232,7 +238,7 @@ def main():
             print("Invalid choice. Please try again.")
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
         
         
